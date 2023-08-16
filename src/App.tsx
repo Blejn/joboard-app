@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
 import { Container } from './components/Container/Container';
+import OffertsContainer from './components/offers-list/OffertsContainer';
+import FilterContainer from './components/filters/FilterContainer';
 
 function App() {
    return (
       <Container>
-         <h1>JoBoard 🛹</h1>
+         <FilterContainer />
+         <OffertsContainer />
       </Container>
    );
 }
